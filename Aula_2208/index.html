@@ -1,16 +1,70 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+
+  <!--Desenvolvido por Lucas De Carvalho Praxedes-->
+  <!--DATA 13/08/2024 -->
+  <!--Professor: Luís Alberto Pires de Oliveira-->
+  
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario de Cadastro simples</title>
+    <title>Cadastro</title>
 </head>
 <body>
+
     <form>
         <table>
             <caption>FORMULÁRIO DE CADASTRO</caption>
 
+            <tr>
+                <th colspan="2">DADOS PESSOAIS</th>
+            </tr>
+            <tr>
+                <td><label for="nome">NOME:</label></td>
+                <td><input type="text" id="nome" name="nome"></td>
+            </tr>
+            <tr>
+                <td><label for="endereco">ENDEREÇO:</label></td>
+                <td><input type="text" id="endereco" name="endereco"></td>
+            </tr>
+            <tr>
+                <td><label for="telefone">TELEFONE:</label></td>
+                <td><input type="tel" id="telefone" name="telefone"></td>
+            </tr>
+
+            <tr>
+                <th colspan="2">DADOS PROFISSIONAIS</th>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <p>TECNOLOGIAS:</p>
+                    <label><input type="checkbox" name="tecnologia" value="html"> HTML</label>
+                    <label><input type="checkbox" name="tecnologia" value="css"> CSS</label>
+                    <label><input type="checkbox" name="tecnologia" value="js"> JS</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <p>QUAL VOCÊ MAIS GOSTA?</p>
+                    <label><input type="radio" name="preferencia" value="html"> HTML</label>
+                    <label><input type="radio" name="preferencia" value="css"> CSS</label>
+                    <label><input type="radio" name="preferencia" value="js"> JS</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <label for="mensagem">ESCREVA AQUI:</label><br>
+                    <textarea id="mensagem" name="mensagem"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="ENVIAR">
+                </td>
+            </tr>
         </table>
     </form>
+
 </body>
-</html>
+</html> 
