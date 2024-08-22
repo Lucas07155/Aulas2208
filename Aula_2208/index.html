@@ -1,48 +1,31 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-
-  <!--Desenvolvido por Lucas De Carvalho Praxedes-->
-  <!--DATA 13/08/2024 -->
-  <!--Professor: Luís Alberto Pires de Oliveira-->
-  
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
+    <title>Cadastro de Usuário</title>
 </head>
 <body>
-
-    <form>
-        <table>
-            <caption>FORMULÁRIO DE CADASTRO</caption>
-
-            <tr>
-                <th colspan="2">DADOS PESSOAIS</th>
-            </tr>
-            <tr>
-                <td><label for="nome">NOME:</label></td>
-                <td><input type="text" id="nome" name="nome"></td>
-            </tr>
-            <tr>
-                <td><label for="email">EMAIL:</label></td>
-                <td><input type="emal" id="email" name="email"></td>
-            </tr>
-            <tr>
-                <td><label for="senha">SENHA:</label></td>
-                <td><input type="seh" id="senha" name="senha"></td>
-            </tr>
-            <tr>
-                <td><label for="senha">COMFIMAÇÃO DA SENHA:</label></td>
-                <td><input type="seh" id="senha" name="senha"></td>
-            </tr>
-            <tr>
-                <td colspan="2">
-                    <input type="submit" value="ENVIAR">
-                </td>
-            </tr>
-        </table>
-    </form>
-
+    <header>
+        <h1>Cadastro de Usuário</h1>
+    </header>
+    <main>
+        <form action="#" method="post">
+            <label for="nome">Nome completo:</label>
+            <input type="text" id="nome" name="nome" required>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" required>
+            
+            <label for="confirma-senha">Confirmação de Senha:</label>
+            <input type="password" id="confirma-senha" name="confirma-senha" required>
+            
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </form>
+    </main>
 </body>
-</html> 
-
+</html>
