@@ -1,15 +1,14 @@
- /* Define o estilo geral da página */
 body {
-    background-color: red; /* Cor de fundo vermelha */
-    color: white; /* Cor do texto branca para contraste */
+    background-color: red; 
+    color: white; 
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: column; /* Coloca elementos verticalmente */
+    flex-direction: column; 
     align-items: center;
     justify-content: center;
-    height: 100vh; /* Ocupa toda a altura da viewport */
+    height: 100vh; 
 }
 
 header {
@@ -22,12 +21,12 @@ h1 {
 }
 
 main {
-    background-color: #333; /* Fundo escuro para o formulário */
+    background-color: #333; 
     padding: 20px;
     border-radius: 8px;
     width: 100%;
-    max-width: 400px; /* Largura máxima do formulário */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra para destaque */
+    max-width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
 }
 
 form {
@@ -52,20 +51,20 @@ button {
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
-    margin: 5px; /* Margem para espaçamento */
+    margin: 5px; 
 }
 
 button[type="submit"] {
-    background-color: #4CAF50; /* Cor verde para o botão Enviar */
+    background-color: #4CAF50; 
     color: white;
 }
 
 button[type="reset"] {
-    background-color: #f44336; /* Cor vermelha para o botão Limpar */
+    background-color: #f44336; 
     color: white;
 }
 
 .buttons {
     display: flex;
-    justify-content: space-between; /* Espaçamento entre os botões */
+    justify-content: space-between; 
 }
