@@ -1,4 +1,3 @@
-/* Fundo da página */
 body {
     display: flex;
     justify-content: center;
@@ -6,10 +5,9 @@ body {
     height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Gradiente roxo para azul */
+    background: linear-gradient(135deg, #6a11cb, #2575fc); 
 }
 
-/* Centralizando o formulário */
 form {
     background-color: #ffffff;
     padding: 20px;
@@ -19,13 +17,11 @@ form {
     text-align: center;
 }
 
-/* Estilizando o título do formulário */
 h1 {
     margin-bottom: 20px;
     color: #333333;
 }
 
-/* Estilizando os campos de entrada */
 input[type="text"],
 input[type="password"] {
     width: 100%;
@@ -39,20 +35,17 @@ input[type="password"] {
     padding-left: 40px;
 }
 
-/* Estilizando o campo de senha com ícone */
 input[type="password"] {
     background: url('password-icon.png') no-repeat 10px center;
     background-size: 20px;
     padding-left: 40px;
 }
 
-/* Estilizando o checkbox "Lembrar-me" */
 label {
     font-size: 14px;
     color: #555;
 }
 
-/* Estilizando o botão de login */
 button {
     width: 100%;
     padding: 10px;
@@ -65,7 +58,6 @@ button {
     font-size: 16px;
 }
 
-/* Cor de fundo ao passar o mouse sobre o botão */
 button:hover {
     background-color: #45a049;
 }
