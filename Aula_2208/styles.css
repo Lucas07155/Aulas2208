@@ -1,4 +1,4 @@
- /* Centralizar o formulário na página */
+
 body {
     display: flex;
     justify-content: center;
@@ -8,7 +8,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Estilo do formulário */
+
 form {
     border: 1px solid #ccc;
     padding: 20px;
@@ -17,7 +17,7 @@ form {
     background-color: #f9f9f9;
 }
 
-/* Estilo dos campos de entrada */
+
 input[type="text"],
 input[type="email"],
 input[type="password"] {
@@ -29,17 +29,15 @@ input[type="password"] {
     box-sizing: border-box;
 }
 
-/* Estilização quando o campo é válido */
+
 input:valid {
     border-color: #4CAF50;
 }
 
-/* Estilização quando o campo é inválido */
 input:invalid {
     border-color: #f44336;
 }
 
-/* Estilo dos botões */
 button {
     padding: 10px 20px;
     margin: 10px 5px;
@@ -48,7 +46,7 @@ button {
     cursor: pointer;
 }
 
-/* Cor de fundo dos botões */
+
 button[type="submit"] {
     background-color: #4CAF50;
     color: white;
@@ -59,7 +57,6 @@ button[type="reset"] {
     color: white;
 }
 
-/* Alterar a cor de fundo dos botões ao passar o mouse */
 button[type="submit"]:hover {
     background-color: #45a049;
 }
