@@ -24,8 +24,8 @@ main {
     background-color: #333; /* Fundo escuro para o formulário */
     padding: 20px;
     border-radius: 8px;
-    width: 80%; /* Aumenta a largura do formulário para 80% */
-    max-width: 600px; /* Define uma largura máxima para evitar que fique muito grande */
+    width: 100%;
+    max-width: 400px; /* Largura máxima do formulário */
 }
 
 form {
