@@ -1,37 +1,32 @@
-
+/* Define o estilo geral da página */
 body {
+    background-color: red; /* Cor de fundo vermelha */
+    color: white; /* Cor do texto branca para contraste */
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
     margin: 0;
+    padding: 0;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    height: 100vh;
+    align-items: center;
+    height: 100vh; /* Ocupa toda a altura da viewport */
 }
 
 header {
     text-align: center;
-    width: 100%;
+    margin-bottom: 20px;
 }
 
-
-header h1 {
+h1 {
     margin: 0;
-    padding: 20px;
-    font-size: 2rem;
 }
-
 
 main {
-    background-color: #fff;
+    background-color: #333; /* Fundo escuro para o formulário */
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 100%;
-    max-width: 400px;
+    max-width: 400px; /* Largura máxima do formulário */
 }
-
 
 form {
     display: flex;
@@ -39,57 +34,31 @@ form {
 }
 
 label {
-    margin-bottom: 8px;
-    font-weight: bold;
+    margin-bottom: 5px;
 }
 
-
-input[type="text"],
-input[type="email"],
-input[type="password"] {
-    padding: 10px;
+input {
     margin-bottom: 15px;
-    border: 2px solid #ddd;
+    padding: 10px;
+    border: 1px solid #555;
     border-radius: 4px;
-    width: 100%;
-    box-sizing: border-box;
-    transition: border-color 0.3s, box-shadow 0.3s;
-}
-
-
-input:valid {
-    border-color: #4CAF50;
-    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
-}
-
-
-input:invalid {
-    border-color: #f44336;
-    box-shadow: 0 0 5px rgba(244, 67, 54, 0.5);
 }
 
 button {
     padding: 10px;
-    margin-right: 10px;
     border: none;
     border-radius: 4px;
-    color: #fff;
     cursor: pointer;
-    transition: background-color 0.3s;
+    font-size: 16px;
 }
 
 button[type="submit"] {
-    background-color: #4CAF50;
+    background-color: #4CAF50; /* Cor verde para o botão Enviar */
+    color: white;
+    margin-right: 10px;
 }
 
 button[type="reset"] {
-    background-color: #f44336;
-}
-
-button[type="submit"]:hover {
-    background-color: #45a049;
-}
-
-button[type="reset"]:hover {
-    background-color: #e53935;
+    background-color: #f44336; /* Cor vermelha para o botão Limpar */
+    color: white;
 }
