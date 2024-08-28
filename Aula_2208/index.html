@@ -1,39 +1,33 @@
   <!--Desenvolvido por Lucas De Carvalho Praxedes-->
   <!--DATA 27/08/2024 -->
   <!--Professor: Luís Alberto Pires de Oliveira-->
-
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro de Usuário</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>Cadastro de Usuário</h1>
-    </header>
-    
-    <main>
-        <form>
-            <label for="nome">Nome completo:</label>
-            <input type="text" id="nome" name="nome" required>
-            
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="senha">Senha:</label>
-            <input type="password" id="senha" name="senha" required>
-            
-            <label for="confirma-senha">Confirmação de Senha:</label>
-            <input type="password" id="confirma-senha" name="confirma-senha" required>
-            
-            <div class="buttons">
-                <button type="submit">Enviar</button>
-                <button type="reset">Limpar</button>
-            </div>
-        </form>
-    </main>
-</body>
-</html>
+  
+  <!DOCTYPE html>
+  <html lang="pt-BR">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Cadastro de Usuário</title>
+      <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+      <h1>Cadastro de Usuário</h1>
+      <form action="#" method="post">
+          <label for="nome">Nome Completo:</label><br>
+          <input type="text" id="nome" name="nome" required minlength="3" maxlength="50"><br><br>
+  
+          <label for="email">E-mail:</label><br>
+          <input type="email" id="email" name="email" required><br><br>
+  
+          <label for="senha">Senha:</label><br>
+          <input type="password" id="senha" name="senha" required minlength="8" maxlength="20"><br><br>
+  
+          <label for="confirmacao_senha">Confirmação de Senha:</label><br>
+          <input type="password" id="confirmacao_senha" name="confirmacao_senha" required minlength="8" maxlength="20"><br><br>
+  
+          <button type="submit">Enviar</button>
+          <button type="reset">Limpar</button>
+      </form>
+  </body>
+  </html>
+  
